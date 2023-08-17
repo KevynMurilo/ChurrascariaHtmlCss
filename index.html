@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascaria</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo-icon.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#galeria">Galeria de Fotos</a></li>
+          <li><a href="#fale">Contato</a></li>
+        </ul>
+      </nav>
+
+      <header id="home">
+        <div class="header-background"></div>
+        <div class="title-header">
+            <h1>Churrasco</h1>
+            <h3>Carne de Qualidade</h3>
+        </div>
+      </header>
+
+      <div id="cardapio" class="cardapio-container">
+        <div class="title-cardapio">
+            <img src="images/cardapio-icon.png"/>
+            <h1>Cardapio</h1>
+        </div>
+    </div>
+
+        <div class="cardapio-all-images">
+            <div class="cardapio-image-container">
+                <img class="cardapio-images" src="images/espeto.jpg"/>
+                <h1 class="image-title">Carnes</h1>
+                <p class="image-description">Lorem ipsum tristique fringilla risus tortor placerat tortor in neque proin duis, hendrerit nam magna ipsum tempus lectus consectetur phasellus maecenas class, integer condimentum fermentum vitae erat quisque elementum sollicitudin consequat praesent. congue torquent auctor venenatis viverra id augue.</p>
+            </div>
+            <div class="cardapio-image-container">
+                <img class="cardapio-images" src="images/sobremesa.jpg"/>
+                <h1 class="image-title">Sobremesas</h1>
+                <p class="image-description">Lorem ipsum tristique fringilla risus tortor placerat tortor in neque proin duis, hendrerit nam magna ipsum tempus lectus consectetur phasellus maecenas class, integer condimentum fermentum vitae erat quisque elementum sollicitudin consequat praesent. congue torquent auctor venenatis viverra id augue.</p>
+            </div>
+            <div class="cardapio-image-container">
+                <img class="cardapio-images" src="images/cerveja.jpg"/>
+                <h1 class="image-title">Bebidas</h1>
+                <p class="image-description">Lorem ipsum tristique fringilla risus tortor placerat tortor in neque proin duis, hendrerit nam magna ipsum tempus lectus consectetur phasellus maecenas class, integer condimentum fermentum vitae erat quisque elementum sollicitudin consequat praesent. congue torquent auctor venenatis viverra id augue.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="galeria" class="galeria-container">
+        <div class="title-galeria">
+            <img src="images/galeria-icon.png"/>
+            <h1>Galeria de Fotos</h1>
+        </div>
+        <div class="galeria-images">
+            <div class="galeria-image">
+                <img src="images/churrasco-fundo.jpg" alt="Foto 1">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card1.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card2.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card3.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card4.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card5.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card6.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card7.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card8.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card9.jpeg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card10.jpg" alt="Foto 2">
+            </div>
+            <div class="galeria-image">
+                <img src="images/card11.jpg" alt="Foto 2">
+            </div>
+        </div>
+    </div>
+    
+    <div id="fale" class="fale-conosco-container">
+        <div class="formulario-contato">
+            <h2>Fale Conosco</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="outro">Outro</option>
+                </select>
+    
+                <label for="mensagem">Sua Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+        <div class="informacoes-contato">
+            <h2>Informações de Contato</h2>
+            <p>Email: contato@churrascaria.com</p>
+            <p>Telefone Fixo: (XX) XXXX-XXXX</p>
+            <p>Telefone Residencial: (XX) XXXX-XXXX</p>
+            <p>Endereço: Rua Churrascaria, 123</p>
+            <p>Dia e Horário de Funcionamento: Segunda a Domingo, 11h às 23h</p>
+            <div class="redes-sociais">
+                <a href="https://www.whatsapp.com" target="_blank"><img class="redes" src="images/whatsapp-icon.png" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="redes" src="images/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.twitter.com" target="_blank"><img class="redes" src="images/twitter-icon.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com" target="_blank"><img class="redes" src="images/facebook-icon.png" alt="Facebook"></a>
+            </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
