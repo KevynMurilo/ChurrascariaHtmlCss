@@ -2,6 +2,8 @@
 
 Bem-vindo ao site da Churrascaria "Sabor Gaucho"! Este é um projeto desenvolvido utilizando HTML, CSS e JavaScript para criar uma página web interativa e informativa para nossa churrascaria.
 
+![print-churrascaria](https://github.com/KevynMurilo/ChurrascariaHtmlCss/assets/132490286/082f7119-e25f-4534-aa35-fb1cd7df0046)
+
 ## Visão Geral
 
 O site da Churrascaria  é uma plataforma online que oferece uma experiência deliciosa e autêntica de churrasco. Dos pratos suculentos às sobremesas tentadoras e bebidas refrescantes, nossa churrascaria tem algo para todos os paladares.
