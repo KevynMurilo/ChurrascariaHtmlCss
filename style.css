@@ -284,12 +284,9 @@ header {
         height: 50vh;
     }
 
-    .header-background {
-        width: 100%;
-    }
-
     .title-header h1 {
         font-size: 5rem;
+        margin-top: 100%;
     }
 
     .title-header h3 {
