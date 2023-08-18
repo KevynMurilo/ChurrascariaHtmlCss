@@ -275,6 +275,10 @@ header {
         padding: 0;
     }
 
+    .nav-links li {
+        margin-right: 5px; 
+    }
+
     .logo img {
         max-width: 60px;
     }
@@ -381,7 +385,7 @@ header {
 
     /*NavBar*/
     .nav-links li {
-        margin-right: 5px; 
+        margin: -1%;
     }
 
     /*Header*/
