@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #FFF8E7;
+    overflow-x: hidden;
 }
 
 /*NavBar-----------------------------------------------------------------------------------------------------------------*/
@@ -15,6 +16,7 @@ body {
     position: fixed;
     z-index: 9999;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .logo img {
@@ -101,7 +103,7 @@ header {
 .title-cardapio {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: center; 
     margin-top: 10%;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
@@ -124,6 +126,7 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 3%;
+    overflow-x: hidden;
 }
 
 .cardapio-image-container {
@@ -140,9 +143,9 @@ header {
 
 .image-title {
     margin-top: 10px;
-    font-family: 'Pacifico', cursive; /* Utilizando a fonte Pacifico */
+    font-family: 'Pacifico', cursive;
     font-size: 2rem;
-    color: #A16740; /* Cor de caramelo */
+    color: #A16740; 
 
 }
 
@@ -156,7 +159,7 @@ header {
 
 /*Galeria de fotos------------------------------------------------------------------------------------------------------------------*/
 .galeria-container {
-    background-color: #FFFDF0; /* Fundo branco */
+    background-color: #FFFDF0; 
     padding: 50px 0;
     text-align: center;
 }
@@ -164,7 +167,7 @@ header {
 .title-galeria {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: center; 
     margin-bottom: 30px;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
@@ -181,6 +184,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .galeria-image {
@@ -188,8 +192,8 @@ header {
 }
 
 .galeria-image img {
-    width: 300px; /* Largura fixa */
-    height: 200px; /* Altura fixa */
+    width: 300px; 
+    height: 200px; 
     object-fit: cover;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -200,10 +204,11 @@ header {
 .fale-conosco-container {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Centraliza verticalmente os elementos */
+    align-items: center; 
     padding: 50px 0;
-    background-color: #333; /* Cor de fundo escura */
-    color: #FFF; /* Cor do texto */
+    background-color: #333; 
+    color: #FFF; 
+    overflow-x: hidden;
 }
 
 .formulario-contato {
@@ -268,11 +273,10 @@ header {
     width: 50px;
 }
 
-/* Ajustes para telas menores */
-/* Estilos gerais aqui... */
 
 /* Tamanhos de tela menores (responsividade) */
 @media screen and (max-width: 768px) {
+
     /*NavBar*/
     .navbar {
         padding: 0;
@@ -290,6 +294,10 @@ header {
     /*Header*/
     header {
         height: 50vh;
+    }
+
+    .header-background{
+        width: 100%;
     }
 
     .title-header h1 {
@@ -312,6 +320,7 @@ header {
 
     .cardapio-all-images {
         display: block;
+        
     }
 
     .cardapio-image-container {
@@ -332,34 +341,35 @@ header {
     }
 
     .galeria-image img {
-        width: 100%; /* Largura ocupando 100% do espaço */
-        height: auto; /* Altura ajustada automaticamente */
+        width: 100%; 
+        height: auto; 
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     /*Fale Conosco*/
     .fale-conosco-container {
-        flex-direction: column; /* Empilha os elementos verticalmente */
-        padding: 30px 0; /* Espaçamento interno menor */
+        flex-direction: column;
+        padding: 30px 0; 
+        background-color: #333;
     }
 
     .formulario-contato,
     .informacoes-contato {
-        padding: 0 20px; /* Espaçamento interno nas laterais */
-        margin: 10px 0; /* Espaçamento entre os elementos */
-        text-align: center; /* Centraliza o texto */
+        padding: 0 20px; 
+        margin: 10px 0;
+        text-align: center; 
     }
 
     .formulario-contato h2,
     .informacoes-contato h2 {
-        font-size: 1.5rem; /* Tamanho de fonte menor */
+        font-size: 1.5rem; 
         margin-bottom: 15px;
     }
 
     .formulario-contato label,
     .informacoes-contato p {
-        font-size: 0.9rem; /* Tamanho de fonte menor */
+        font-size: 0.9rem; 
         margin-bottom: 7px;
     }
 
@@ -367,15 +377,15 @@ header {
     .formulario-contato select,
     .formulario-contato textarea,
     .formulario-contato button {
-        font-size: 0.9rem; /* Tamanho de fonte menor */
+        font-size: 0.9rem;
         margin-bottom: 10px;
     }
 
     .formulario-contato button {
-        padding: 8px; /* Espaçamento interno menor */
+        padding: 8px; 
     }
 
     .redes {
-        width: 40px; /* Tamanho menor para os ícones de redes sociais */
+        width: 40px; 
     }
 }
