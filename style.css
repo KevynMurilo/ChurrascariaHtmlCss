@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 0 20px; 
+    padding: 0 20px;
     position: fixed;
     z-index: 9999;
     width: 100%;
@@ -20,7 +20,7 @@ body {
 }
 
 .logo img {
-    max-width: 80px; 
+    max-width: 80px;
 }
 
 .nav-links {
@@ -31,14 +31,14 @@ body {
 }
 
 .nav-links li {
-    margin-right: 35px; 
+    margin-right: 35px;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #fff;
     transition: background-color 0.3s;
-    padding: 5px 10px; 
+    padding: 5px 10px;
 }
 
 .nav-links a:hover {
@@ -49,10 +49,10 @@ body {
 /*Header--------------------------------------------------------------------------------------------------------------------------*/
 
 header {
-    position: relative; 
+    position: relative;
     height: 70vh;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 
@@ -65,22 +65,22 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; 
+    z-index: -1;
 }
 
 .title-header {
     text-align: center;
-    color: white; 
-    z-index: 1; 
+    color: white;
+    z-index: 1;
 }
 
 .title-header h1 {
     font-size: 7rem;
     font-family: 'Lato', sans-serif;
     letter-spacing: 4px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     padding: 10px 20px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .title-header h3 {
@@ -95,7 +95,7 @@ header {
 
 /*Cardapio-----------------------------------------------------------------------------------------------------------------*/
 
-.cardapio-container{
+.cardapio-container {
     background-color: #FFF8E7;
     margin-top: 20%;
 }
@@ -103,12 +103,12 @@ header {
 .title-cardapio {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin-top: 10%;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     color: #333;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .title-cardapio img {
@@ -119,8 +119,6 @@ header {
 .title-cardapio h1 {
     margin: 0;
 }
-
-
 
 .cardapio-all-images {
     display: flex;
@@ -145,8 +143,7 @@ header {
     margin-top: 10px;
     font-family: 'Pacifico', cursive;
     font-size: 2rem;
-    color: #A16740; 
-
+    color: #A16740;
 }
 
 .image-description {
@@ -156,10 +153,9 @@ header {
     max-width: 400px;
 }
 
-
 /*Galeria de fotos------------------------------------------------------------------------------------------------------------------*/
 .galeria-container {
-    background-color: #FFFDF0; 
+    background-color: #FFFDF0;
     padding: 50px 0;
     text-align: center;
 }
@@ -167,12 +163,12 @@ header {
 .title-galeria {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin-bottom: 30px;
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     color: #333;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .title-galeria img {
@@ -192,22 +188,21 @@ header {
 }
 
 .galeria-image img {
-    width: 300px; 
-    height: 200px; 
+    width: 300px;
+    height: 200px;
     object-fit: cover;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 /*Fale Conosco -----------------------------------------------------------------------------------------------------------------*/
 .fale-conosco-container {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     padding: 50px 0;
-    background-color: #333; 
-    color: #FFF; 
+    background-color: #333;
+    color: #FFF;
     overflow-x: hidden;
 }
 
@@ -221,7 +216,6 @@ header {
     flex: 1;
     padding-left: 20px;
     margin-right: 5%;
-
 }
 
 .formulario-contato h2,
@@ -245,13 +239,13 @@ header {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #555; 
+    border: 1px solid #555;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
-    background-color: #444; 
-    color: #FFF; 
-    box-sizing: border-box; 
+    background-color: #444;
+    color: #FFF;
+    box-sizing: border-box;
 }
 
 .formulario-contato textarea {
@@ -259,33 +253,27 @@ header {
 }
 
 .formulario-contato button {
-    background-color: #DDB59A; 
-    color: #333; 
+    background-color: #DDB59A;
+    color: #333;
     cursor: pointer;
 }
 
 .informacoes-contato p {
     font-size: 1rem;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
-.redes{
+.redes {
     width: 50px;
 }
 
 
-/* Tamanhos de tela menores (responsividade) */
 @media screen and (max-width: 768px) {
 
     /*NavBar*/
     .navbar {
         padding: 0;
     }
-
-    .nav-links li {
-        margin: -0.5%;
-    }
-    
 
     .logo img {
         max-width: 60px;
@@ -296,7 +284,7 @@ header {
         height: 50vh;
     }
 
-    .header-background{
+    .header-background {
         width: 100%;
     }
 
@@ -310,17 +298,17 @@ header {
     }
 
     /*Cardapio*/
-    .title-cardapio{
+    .title-cardapio {
         font-size: 1rem;
     }
 
-    .cardapio-container{
+    .cardapio-container {
         margin-top: 100%;
     }
 
     .cardapio-all-images {
         display: block;
-        
+        overflow-x: hidden;
     }
 
     .cardapio-image-container {
@@ -336,13 +324,13 @@ header {
     }
 
     /*Galeria de fotos*/
-    .title-galeria{
+    .title-galeria {
         font-size: 1rem;
     }
 
     .galeria-image img {
-        width: 100%; 
-        height: auto; 
+        width: 100%;
+        height: auto;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
@@ -350,26 +338,27 @@ header {
     /*Fale Conosco*/
     .fale-conosco-container {
         flex-direction: column;
-        padding: 30px 0; 
+        padding: 30px 0;
         background-color: #333;
+        overflow-x: hidden;
     }
 
     .formulario-contato,
     .informacoes-contato {
-        padding: 0 20px; 
+        padding: 0 20px;
         margin: 10px 0;
-        text-align: center; 
+        text-align: center;
     }
 
     .formulario-contato h2,
     .informacoes-contato h2 {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
         margin-bottom: 15px;
     }
 
     .formulario-contato label,
     .informacoes-contato p {
-        font-size: 0.9rem; 
+        font-size: 0.9rem;
         margin-bottom: 7px;
     }
 
@@ -382,10 +371,108 @@ header {
     }
 
     .formulario-contato button {
-        padding: 8px; 
+        padding: 8px;
     }
 
     .redes {
-        width: 40px; 
+        width: 40px;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+
+    /*NavBar*/
+    .nav-links li {
+        margin-right: 15px; 
+    }
+
+    /*Header*/
+    header {
+        height: 40vh;
+    }
+
+    .title-header h1 {
+        font-size: 4rem;
+    }
+
+    .title-header h3 {
+        font-size: 1.2rem;
+    }
+
+    /*Cardapio*/
+    .cardapio-container{
+        margin-top: 150%;
+    }
+
+    .title-cardapio{
+        font-size: 1.5rem;
+    }
+
+    .cardapio-all-images {
+        margin-top: 5%;
+        align-items: center;
+    }
+
+    .cardapio-image-container {
+        margin: 50px;
+    }
+
+    .cardapio-images {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .image-title {
+        font-size: 1.5rem;
+    }
+
+    .image-description {
+        font-size: 0.9rem;
+        max-width: 300px;
+        margin: 0  auto;
+    }
+
+    /*Galeria de fotos*/
+    .title-galeria{
+        font-size: 1.5rem;
+    }
+
+    .galeria-image img {
+        width: 100%; 
+        height: auto; 
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /*Fale Conosco*/
+    .formulario-contato h2,
+    .informacoes-contato h2 {
+        font-size: 1.2rem; 
+    }
+
+    .formulario-contato label,
+    .informacoes-contato p {
+        font-size: 0.8rem; 
+        margin-bottom: 5px;
+    }
+
+    .formulario-contato input,
+    .formulario-contato select,
+    .formulario-contato textarea,
+    .formulario-contato button {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+    .formulario-contato button {
+        padding: 5px;
+    }
+
+    .redes {
+        width: 30px; 
+    }
+}
+
+
