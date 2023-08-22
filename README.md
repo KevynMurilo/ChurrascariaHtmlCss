@@ -1,6 +1,8 @@
 # Churrascaria - Website
 
-Bem-vindo ao site da Churrascaria "Sabor Gaucho"! Este é um projeto desenvolvido utilizando HTML, CSS e JavaScript para criar uma página web interativa e informativa para nossa churrascaria.
+Bem-vindo ao site da Churrascaria! Este é um projeto desenvolvido utilizando HTML, CSS e JavaScript.
+
+Link do site: https://churrascaria.netlify.app/
 
 ![print-churrascaria](https://github.com/KevynMurilo/ChurrascariaHtmlCss/assets/132490286/082f7119-e25f-4534-aa35-fb1cd7df0046)
 
