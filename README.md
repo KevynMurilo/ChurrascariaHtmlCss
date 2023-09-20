@@ -36,7 +36,7 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 - **CSS:** Para o design e estilo visual, incluindo layout, cores e fontes.
 - **JavaScript:** Para tornar os clicaveis da pagina mais suaves
 
-## Equipe
+## Motivação
 
 Este projeto foi desenvolvido para estudar sobre elementos html, css e javascript.
 
