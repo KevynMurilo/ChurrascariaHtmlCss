@@ -8,7 +8,7 @@ Link do site: https://churrascaria.netlify.app/
 
 ## Visão Geral
 
-O site da Churrascaria  é uma plataforma online que oferece uma experiência deliciosa e autêntica de churrasco. Dos pratos suculentos às sobremesas tentadoras e bebidas refrescantes, nossa churrascaria tem algo para todos os paladares.
+Bem-vindo ao modelo de site da Churrascaria! Este é um projeto fictício desenvolvido como exercício de prática utilizando HTML, CSS e JavaScript. A plataforma oferece uma experiência simulada de uma churrascaria, apresentando pratos suculentos, sobremesas tentadoras e bebidas refrescantes.
 
 ## Conteúdo
 
